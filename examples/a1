@@ -1,0 +1,5 @@
+00400000 0 mov eax,dword ptr [ebp+30h]
+00400001 0 cmp eax,8h
+00400002 0 jle (00400005)
+00400005 0 dec edx
+00400006 0 add ebx, edx
